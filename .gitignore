@@ -1,0 +1,37 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Mac/Linux swap/intellisense/IDE files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+.vscode/
+*.code-workspace
+
+# Model directories and weights (large files not to upload)
+modelos_edge/
+vosk-model-small-en-us-0.15/
+distilbert_multicount/
+
+# Audio/video files
+*.wav
+*.mp3
+*.mp4
+*.avi
+
+# Dataset/transcripts/results
+*.txt         # (keep only those transcripts you explicitly want in repo)
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs, temporary files, caches
+*.log
+*.tmp
+.DS_Store
